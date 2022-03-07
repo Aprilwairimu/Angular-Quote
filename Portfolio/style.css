@@ -1,0 +1,53 @@
+body{
+    background-color:hsl(191, 87%, 24%);
+         width: 100%;
+         opacity: 2.5;
+    }
+h1{
+    color: rgb(233, 220, 220);
+    font-size: 96px;
+    text-align: left;
+     }
+ h2{
+    color:rgb(36, 36, 230);
+    font-size :36px;
+    text-align: left
+    }
+ p {
+    font-size: 36px;
+    text-align: left;
+}
+.img{
+    image-rendering: 800px 900px;
+    size-adjust: 500px 700px;
+}
+
+.hero-wrapper{
+    width: 90%;
+    height: 90vh;
+    margin: 0 auto;
+    background-image: linear-gradient(to left, rgba(0,0,0, 0.6), rgba(0,0,0, 0.7)), url("images/image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.aboutme{
+    color: white;
+    width: 70%;
+    margin: 50px auto;
+    padding-top: 50px;
+}
+
+.aboutme h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.aboutme p{
+    font-size: 25px;
+}
+.dropcap{
+    font-size: 50px;
+    color: aquamarine;
+}
