@@ -1,27 +1,49 @@
-# Quote
+## QUOTE
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
+### PROJECT PREVIEW
 
-## Development server
+<img src=""
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### PROJECT DESCRIPTION
 
-## Code scaffolding
+This project presents the user with some quotes and it enables them to upvote or downvote and also delete the quote if need be.A user can also add a quote,the author and the sender. This is a simple project that contains HTML,CSS,JAVASCRIPT AND TYPESCRIPT.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### :information_desk_person: AUTHOR'S INFORMATION
 
-## Build
+Am April wairimu a young growing developer.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### NAME OF CONTRIBUTORS
 
-## Running unit tests
+The project was done as an individual.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### :pushpin: TECHNOLOGY USED
 
-## Running end-to-end tests
+The technologies are ;
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+:small_blue_diamond: HTML
 
-## Further help
+:small_blue_diamond: CSS
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+:small_blue_diamond: JAVASCRIPT
+
+:small_blue_diamond: TYPESCRIPT
+
+### BDD
+
+This is a simple project that contains HTML,CSS,JAVASCRIPT and TYPESCRIPT helps the user to delete,upvote or downvote,add and submit.
+
+### LINK TO VIEW SITE
+
+https://github.com/Aprilwairimu/Angular-Quote
+
+### :telephone_receiver: CONTANCT INFORMATION
+
+Find me at wairimuapril@gmail.
+
+### CREATED
+
+2022
+
+## LICENCE AND COPYRIGHT
+
+MIT Copyright (c) 2022 April Wairimu
