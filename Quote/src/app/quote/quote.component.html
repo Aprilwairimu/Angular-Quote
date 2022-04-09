@@ -1,13 +1,27 @@
 <div class="container bg-dark text-light">
     <h1>Today's Quote</h1>
+    <div class="row">
+        <div class="col-md-6">
     <ul>
-        <li *ngFor='let quote of quotes'>
+        <li *ngFor='let quote of quotes;let i =index'>
             Quote:{{quote.quote}} <br>
             Author:{{quote.Author}}<br>
             sender: {{quote.sender}} <br>
             vote count:{{votescount}}>
            <button class="btn btn-primary" (click)="functionlike()">like</button>
+           
          <button class="btn btn-danger" (click)="functiondislike()">dislike</button>
+
+         <br>
+
+        <button class="btn btn-danger" (click)=" functiondelete(i)">Delete</button>
         </li>
     </ul>
+    </div>
+   </div>
+   <div class="row">
+       <div class="col-md-6">
+        <app-form></app-form>
+      </div>
+    </div>
 </div>
