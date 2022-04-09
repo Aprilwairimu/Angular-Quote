@@ -1,0 +1,12 @@
+<div>
+    <h1>Today's Quote</h1>
+    <ul>
+        <li *ngFor='let quote of quotes'>
+            Author:{{quote.Author}} <br>
+            sender:{{quote.sender}}<br>
+            Quote: {{quote.quote}} <br>
+            vote count:{{quote.votes}}
+         >
+        </li>
+    </ul>
+</div>
