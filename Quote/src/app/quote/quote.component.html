@@ -5,8 +5,9 @@
             Author:{{quote.Author}} <br>
             sender:{{quote.sender}}<br>
             Quote: {{quote.quote}} <br>
-            vote count:{{quote.votes}}
-         >
+            vote count:{{votescount}}>
+           <button class="btn btn-primary" (click)="functionlike()">like</button>
+         <button class="btn btn-danger" (click)="functiondislike()">dislike</button>
         </li>
     </ul>
 </div>
