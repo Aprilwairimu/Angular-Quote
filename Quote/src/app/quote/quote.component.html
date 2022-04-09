@@ -1,10 +1,10 @@
-<div>
+<div class="container bg-dark text-light">
     <h1>Today's Quote</h1>
     <ul>
         <li *ngFor='let quote of quotes'>
-            Author:{{quote.Author}} <br>
-            sender:{{quote.sender}}<br>
-            Quote: {{quote.quote}} <br>
+            Quote:{{quote.quote}} <br>
+            Author:{{quote.Author}}<br>
+            sender: {{quote.sender}} <br>
             vote count:{{votescount}}>
            <button class="btn btn-primary" (click)="functionlike()">like</button>
          <button class="btn btn-danger" (click)="functiondislike()">dislike</button>
