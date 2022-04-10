@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./form.component.css']
 })
 export class FormComponent implements OnInit {
-
+//   submitquote : number = 0
+//  functionsubmit() {
+//     this.submitquote++;
+//   }
   constructor() { }
 
   ngOnInit(): void {

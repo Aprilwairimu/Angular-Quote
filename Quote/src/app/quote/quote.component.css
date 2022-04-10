@@ -1,3 +1,6 @@
 .container h1 {
   text-align: center;
 }
+.col-md-8 {
+  align-items: center;
+}
