@@ -8,3 +8,5 @@ import{Quote} from './quote'
 export class AppComponent {
   title:string= 'Quote';
 }
+
+

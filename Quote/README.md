@@ -24,13 +24,15 @@ The technologies are ;
 
 :small_blue_diamond: CSS
 
+:small_blue_diamond: BOOSTRAP
+
 :small_blue_diamond: JAVASCRIPT
 
 :small_blue_diamond: TYPESCRIPT
 
 ### BDD
 
-This is a simple project that contains HTML,CSS,JAVASCRIPT and TYPESCRIPT helps the user to delete,upvote or downvote,add and submit.
+This is a simple project that contains HTML,CSS,BOOSTRAP,JAVASCRIPT and TYPESCRIPT helps the user to delete,upvote or downvote,add and submit.
 
 ### LINK TO VIEW SITE
 
