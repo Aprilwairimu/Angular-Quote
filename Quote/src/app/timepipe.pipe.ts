@@ -1,3 +1,4 @@
+import { variable } from '@angular/compiler/src/output/output_ast';
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
@@ -9,7 +10,7 @@ export class TimepipePipe implements PipeTransform {
     let dateToday: any = new Date(
       Today.getFullYear(),
       Today.getMonth(),
-      Today.getDate()
+      Today.getDay()
     );    var timelapse = Math.abs(dateToday - value);
     const secs = 86400;
     var difference = timelapse / secs;    return difference;

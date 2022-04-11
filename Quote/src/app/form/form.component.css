@@ -1,1 +1,9 @@
-
+.container-fluid {
+  margin-left: 25%;
+}
+.form-group {
+  margin-top: 20px;
+}
+.btn {
+  margin-left: 40%;
+}

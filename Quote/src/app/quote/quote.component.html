@@ -7,8 +7,9 @@
             Quote:{{quote.quote}} <br>
             Author:{{quote.Author}}<br>
             sender: {{quote.sender}} <br>
-            vote count:{{votescount}} postdate:{{quote.postdate |timepipe }}>
-           <button class="btn btn-success" (click)="functionlike()">like</button>
+            postdate:{{quote.postdate |timepipe }}<br> like:{{votelikes}} dislike:{{votedislikes}} 
+
+           <button class="btn btn-success" (click)="functionlike()">like</button> 
          <button class="btn btn-primary " (click)="functiondislike()">dislike</button>
 
          <br>

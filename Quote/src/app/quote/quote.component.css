@@ -2,5 +2,5 @@
   text-align: center;
 }
 .col-md-8 {
-  align-items: center;
+  align-content: flex-start;
 }
