@@ -1,9 +1,5 @@
 ## QUOTE
 
-### PROJECT PREVIEW
-
-<img src=""
-
 ### PROJECT DESCRIPTION
 
 This project presents the user with some quotes and it enables them to upvote or downvote and also delete the quote if need be.A user can also add a quote,the author and the sender. This is a simple project that contains HTML,CSS,JAVASCRIPT AND TYPESCRIPT.
