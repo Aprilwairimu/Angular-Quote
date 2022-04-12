@@ -2,7 +2,7 @@
 
 ## PROJECT PREVIEW
 
-![QUOTES APP](src/assets/Qoute.png)
+![QUOTES APP](src/assets/Quote.png)
 
 ### PROJECT DESCRIPTION
 
