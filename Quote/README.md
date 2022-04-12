@@ -2,7 +2,7 @@
 
 ## PROJECT PREVIEW
 
-<img src="/Desktop/Quote/src/assets/Quote.png"
+<img src="assets/Quote.png">
 
 ### PROJECT DESCRIPTION
 
