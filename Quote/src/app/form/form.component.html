@@ -1,23 +1,29 @@
 <div class="container-fluid bg-dark text-light">
     <h2 class="text-center">ADD A QOUTE</h2>
     <hr />
-    <form>
+    <form (ngSubmit) ="submitQuote()" #quoteForm="ngForm">
         <div class="form-group">
             <label for="author">AUTHOR</label>
-            <input type="text" required class="form-control" id="author" />
+            <input type="text" required class="form-control" id="author"[(ngModel)]="newQuote.author"
+        name="author"
+        #author="ngModel"
+        required />
         </div>
         <div class="form-group">
             <label for="sender">SENDERS</label>
-            <input type="text" required class="form-control" id="sender" />
+            <input type="text" required class="form-control" id="sender"[(ngModel)]="newQuote.sender"
+        name="sender"
+        #author="ngModel"
+        required />
         </div>
         <div class="form-group">
             <label for="quote">WRITE YOUR QUOTE HERE</label>
-            <textarea class="form-control" id="quote" rows="4" required></textarea>
+            <textarea class="form-control" id="quote" rows="4" required [(ngModel)]="newQuote.quoteMessage"
+        name="quote"
+        #author="ngModel"
+        required></textarea>
         </div>
-        <div class="form-group">
-            <label for="post">Date Posted</label>
-            <input type="date" id="post" required />
-        </div>
+      
         <button class="btn btn-primary" type="submit">Submit</button>
 
     </form>

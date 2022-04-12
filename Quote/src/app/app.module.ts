@@ -8,6 +8,7 @@ import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
 import { FormComponent } from './form/form.component';
 import { DatePipe } from '@angular/common';
 import { TimepipePipe } from './timepipe.pipe';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -24,6 +25,7 @@ import { TimepipePipe } from './timepipe.pipe';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule
   ],
   providers: [],
