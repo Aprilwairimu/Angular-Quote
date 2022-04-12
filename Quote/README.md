@@ -3,6 +3,7 @@
 ## PROJECT PREVIEW
 
 <img src="assets/Quote.png">
+<img src="assets/Quote2.png">
 
 ### PROJECT DESCRIPTION
 
