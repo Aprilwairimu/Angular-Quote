@@ -10,7 +10,7 @@ export class QuoteComponent implements OnInit {
     { quote: 'You must be the change you wish to see in the world.', sender:'April',Author:'Mahatma Ghandi',votes:0 , postdate:new Date (2022,10,4)},
     {quote:'Genius is one percent inspiration and ninety-nine percent perspiration',sender:'Negan',Author:'Thomas Edison',votes:0, postdate:new Date (2022,10,4)},
     { quote: 'If at first you don’t succeed, try, try again.', sender: 'Sara', Author: 'W.E Hickson', votes: 0, postdate:new Date (2022,10,3) },
-    { quote: 'If at first you don’t succeed, try, try again.', sender: 'Sara', Author: 'W.E Hickson', votes: 0, postdate:new Date (2022,10,2) },
+    { quote: '“It is only when they go wrong that machines remind you how powerful they are.”', sender: 'Sara', Author: 'Clive James ', votes: 0, postdate:new Date (2022,10,2) },
   ];
   votelikes: number = 0
   votedislikes :number=0
