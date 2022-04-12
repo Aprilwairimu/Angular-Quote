@@ -4,17 +4,18 @@
         <div class="col-md-8">
     <ul>
         <li *ngFor='let quote of quotes;let i =index'>
-            Quote:{{quote.quote}} <br>
-            Author:{{quote.Author}}<br>
+            Quote:{{quote.quoteMessage}} <br>
+            Author:{{quote.author}}<br>
             sender: {{quote.sender}} <br>
-            postdate:{{quote.postdate | timepipe | date  }}<br> like:{{votelikes}} dislike:{{votedislikes}} 
+            postdate:{{quote.postDate | timepipe  }}<br> like:{{quote.voteLikes}}  
 
-           <button class="btn btn-success" (click)="functionlike()">like</button> 
-         <button class="btn btn-primary " (click)="functiondislike()">dislike</button>
+           <button class="btn btn-success" (click)="functionLike(i)">like</button> 
+        dislike:{{quote.voteDislikes}}
+         <button class="btn btn-primary " (click)="functionDislike(i)">dislike</button>
 
          <br>
 
-        <button class="btn btn-danger" (click)=" functiondelete(i)">Delete</button>
+        <button class="btn btn-danger" (click)=" functionDelete(i)">Delete</button>
         
         
         </li>
