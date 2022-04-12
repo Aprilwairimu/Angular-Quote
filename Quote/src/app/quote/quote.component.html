@@ -7,7 +7,7 @@
             Quote:{{quote.quoteMessage}} <br>
             Author:{{quote.author}}<br>
             sender: {{quote.sender}} <br>
-            postdate:{{quote.postDate | timepipe  }}<br> like:{{quote.voteLikes}}  
+            posted:{{quote.postDate | timepipe  }} Days Ago<br> like:{{quote.voteLikes}}  
 
            <button class="btn btn-success" (click)="functionLike(i)">like</button> 
         dislike:{{quote.voteDislikes}}
